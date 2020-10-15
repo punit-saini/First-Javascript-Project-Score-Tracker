@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(58, 57, 57);
+}
+
+#content {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: cursive;
+}
+
+#content>h1 {
+    margin: 50px;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(135, 222, 193);
+    padding-bottom: 40px;
+}
+
+#content>h3 {
+    font-size: 30px;
+    color: rgb(121, 168, 152);
+    margin: 20px;
+}
+
+h3>input {
+    height: 55px;
+    width: 50px;
+    padding-left: 13px;
+    color: rgb(107, 106, 106);
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: rgb(219, 221, 223);
+}
+
+#content>h2 {
+    font-size: 30px;
+    color: rgb(59, 172, 148);
+    margin-bottom: 30px;
+}
+
+#winning-score {
+    color: rgb(212, 176, 14);
+}
+
+.live-score {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: space-around;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+#player-1-score {
+    color: yellowgreen;
+}
+
+#player-2-score {
+    color: rgb(230, 49, 67);
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#inc-player-one-score {
+    background-color: yellowgreen;
+    color: black;
+    font-family: cursive;
+    transition: .5s ease all;
+}
+
+#inc-player-one-score:hover {
+    background-color: black;
+    color: white;
+
+}
+
+#inc-player-two-score {
+    background-color: rgb(230, 49, 67);
+    color: black;
+    font-family: cursive;
+    transition: .5s ease all;
+}
+
+#inc-player-two-score:hover {
+    background-color: black;
+    color: white;
+}
+
+#reset {
+    color: black;
+    background-color: rgb(212, 176, 14);
+    font-family: cursive;
+    transition: .5s ease all;
+}
+
+#reset:hover {
+    color: rgb(212, 176, 14);
+    background-color: black;
+}
+
+.new-div {
+    font-size: 35px;
+    letter-spacing: .15rem;
+    margin-top: 50px;
+}
